@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../FetchMoodle/2026.2.2/FetchMoodle-2026.2.2.module",
+    "group": "lib.fetchmoodle",
+    "module": "FetchMoodle",
+    "version": "2026.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-iosArm64Main-2026.2.2.klib",
+          "url": "FetchMoodle-iosarm64-2026.2.2.klib",
+          "size": 132837,
+          "sha512": "7e3958861c62f9e55d01c6e48494dc57b9f8d38cd683f8efc79447340097640793b482bdebf4bcababbb7c1a75bb2ee5d2730f1bdf5d16f065e792e94c2a3184",
+          "sha256": "9524b996646dcabd3bba1771af9c65774c2bda8ff8582a0f956ee3c25960dc51",
+          "sha1": "51606391697463db9d9bb5c2e5aee704eb5a0042",
+          "md5": "bee109a806ca9e8edf5fc44d89fa93aa"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "FetchMoodle-iosarm64-2026.2.2-sources.jar",
+          "url": "FetchMoodle-iosarm64-2026.2.2-sources.jar",
+          "size": 10947,
+          "sha512": "72e1a4425544a1e0e8a53bb929dcf6b542c52cc51c2291b3222209b8a498ca7c2ebb2d98f76cf62e7279b07f7e3f9e34e641c4c2d404537633646f118c327b58",
+          "sha256": "5ac21483c57f132efcd273bdaed36b6a3b152ed04740598b7146091f350c1296",
+          "sha1": "31d9e4411c6b942b415673db863f4dd23ef08e44",
+          "md5": "4dbcc660706c0a38eb8b9430556f3728"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-iosarm64-2026.2.2-metadata.jar",
+          "url": "FetchMoodle-iosarm64-2026.2.2-metadata.jar",
+          "size": 261,
+          "sha512": "896875749ef84d352b96960897bc74fb06837ef755ff513324a14797cf7167653866259a2a4b956bfaa877919df0f852a151e2facfa47d4176c87f25b18b8f30",
+          "sha256": "a9adc98af0ab0ff25b1e3451c031bc3b5e85651400425a4f6fe371c9d67c8a34",
+          "sha1": "05aabf8ca38836c18a16b970c9e29adfc85623ae",
+          "md5": "199c59242a6e04221368469f495ce659"
+        }
+      ]
+    }
+  ]
+}
