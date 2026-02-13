@@ -1,0 +1,297 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lib.fetchmoodle",
+    "module": "core",
+    "version": "2026.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-metadata-2026.2.3.jar",
+          "url": "core-2026.2.3.jar",
+          "size": 10243,
+          "sha512": "719497a480f9e838009c2dda732dfdbd0d211e07b697ed0d367a32c643a42274f05200e0b2e3a3248514f8bc4ad1c74697d679de837aea17acad7974bd4384b0",
+          "sha256": "1748b7ef1858f516fbeed4fc519f8a594bf7bc1bb4e9976fba7ed63b505f825b",
+          "sha1": "7088fe50c9ecd3dc2b2cc3bf29a4ebe4de2866e4",
+          "md5": "f21d02ea3e9a7b080b041c1234bbba66"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "FetchMoodle-kotlin-2026.2.3-sources.jar",
+          "url": "core-2026.2.3-sources.jar",
+          "size": 11555,
+          "sha512": "66bf21f7deed808a742c5762edefc43e410c53be71ebb89e2f0da9e8d5949d059727e8832a5c9cf32ac878690326e4c167950e69b41356c4234786a0aec039e7",
+          "sha256": "f316993da05fa94e72730e3d4efe6895ad30df46d7fe0ba376cafc6d215ad92d",
+          "sha1": "736d12a9764428a20f686645df6a1338a5096f00",
+          "md5": "daf1342d1aec3fe31873f429b0c1f2a5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosarm64/2026.2.3/FetchMoodle-iosarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosarm64/2026.2.3/FetchMoodle-iosarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosarm64/2026.2.3/FetchMoodle-iosarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iossimulatorarm64/2026.2.3/FetchMoodle-iossimulatorarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iossimulatorarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iossimulatorarm64/2026.2.3/FetchMoodle-iossimulatorarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iossimulatorarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iossimulatorarm64/2026.2.3/FetchMoodle-iossimulatorarm64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iossimulatorarm64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosx64/2026.2.3/FetchMoodle-iosx64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosx64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosx64/2026.2.3/FetchMoodle-iosx64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosx64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-iosx64/2026.2.3/FetchMoodle-iosx64-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-iosx64",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-jvm/2026.2.3/FetchMoodle-jvm-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-jvm",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-jvm/2026.2.3/FetchMoodle-jvm-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-jvm",
+        "version": "2026.2.3"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../FetchMoodle-jvm/2026.2.3/FetchMoodle-jvm-2026.2.3.module",
+        "group": "lib.fetchmoodle",
+        "module": "FetchMoodle-jvm",
+        "version": "2026.2.3"
+      }
+    }
+  ]
+}
