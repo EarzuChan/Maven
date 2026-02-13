@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/2026.2.4/core-2026.2.4.module",
+    "group": "lib.fetchmoodle",
+    "module": "core",
+    "version": "2026.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-iosX64Main-2026.2.4.klib",
+          "url": "FetchMoodle-iosx64-2026.2.4.klib",
+          "size": 133774,
+          "sha512": "0dc75f69fb115e8537caea086b3431e599bd984c23e344c8d0427b57f3ef5ab4e1be8c2a46b4985f328f56d4b09cb3d8619c51c5ae9efb35c80269387c9a4a0a",
+          "sha256": "0bc0c6614cff81e9f2c10a123511f8b6fdbc39dc9717a32b1d766d1c42f60e79",
+          "sha1": "184796096e2974fb3db085e83790a48ab1483c03",
+          "md5": "8ed09b3cb4f7728f3cf181565802ac97"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "FetchMoodle-iosx64-2026.2.4-sources.jar",
+          "url": "FetchMoodle-iosx64-2026.2.4-sources.jar",
+          "size": 11539,
+          "sha512": "80aa9e1e3e0930be0e9fa6fe9604d701565b6fb49cd41909bdb3c72150e40b515b46e85edba2171a22af056ee0fcf10ef09e794c08ca6845a18e1e44c1b9417e",
+          "sha256": "dd6b6e929a52cc715dc8e142e4df3c17c88f99c2597f60da0216ea578ef4cfc4",
+          "sha1": "8f2871e95007363f734a6cece4f8a1c97c019361",
+          "md5": "60399a724f00ada25bc64cb8ab8d0efd"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-iosx64-2026.2.4-metadata.jar",
+          "url": "FetchMoodle-iosx64-2026.2.4-metadata.jar",
+          "size": 261,
+          "sha512": "624beb55d8bd0f4064b4894582b0b853fe88f7c50f080ef0ab471c1242b6e795ab30e69d1e45fbfef39f2cda4df89d9e00c73a7fd804e4e35543c13e8c54b109",
+          "sha256": "257f8a2cc9c324c976e659ef513fec6b767137e098c1ad08c36375cc650589e9",
+          "sha1": "085e9e3bd15275e732e9ba55280c838a7fa083f1",
+          "md5": "c4cf7b7ddd4b2393fd682d6e7f074516"
+        }
+      ]
+    }
+  ]
+}

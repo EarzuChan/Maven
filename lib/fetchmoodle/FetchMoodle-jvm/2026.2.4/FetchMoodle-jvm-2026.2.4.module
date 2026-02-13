@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/2026.2.4/core-2026.2.4.module",
+    "group": "lib.fetchmoodle",
+    "module": "core",
+    "version": "2026.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-jvm-2026.2.4.jar",
+          "url": "FetchMoodle-jvm-2026.2.4.jar",
+          "size": 204467,
+          "sha512": "be22e17164a647baf0e7b1ce569ebaa2784af863a13ddf30741b08ac7a2fc05e50c0653af1902cc226ef0d368ca7adea34c709c52d32145a59dd675fcc0ef7f7",
+          "sha256": "add4a4565be3c536b02a226ea5c0a6b584ef2e5d17aeaebf8617a5cf43711a5b",
+          "sha1": "942a2b1704e5280b5ded6102b79ac6ae6045abbc",
+          "md5": "347b218c6cc08865c758f743b382dab8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FetchMoodle-jvm-2026.2.4.jar",
+          "url": "FetchMoodle-jvm-2026.2.4.jar",
+          "size": 204467,
+          "sha512": "be22e17164a647baf0e7b1ce569ebaa2784af863a13ddf30741b08ac7a2fc05e50c0653af1902cc226ef0d368ca7adea34c709c52d32145a59dd675fcc0ef7f7",
+          "sha256": "add4a4565be3c536b02a226ea5c0a6b584ef2e5d17aeaebf8617a5cf43711a5b",
+          "sha1": "942a2b1704e5280b5ded6102b79ac6ae6045abbc",
+          "md5": "347b218c6cc08865c758f743b382dab8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "FetchMoodle-jvm-2026.2.4-sources.jar",
+          "url": "FetchMoodle-jvm-2026.2.4-sources.jar",
+          "size": 11539,
+          "sha512": "80aa9e1e3e0930be0e9fa6fe9604d701565b6fb49cd41909bdb3c72150e40b515b46e85edba2171a22af056ee0fcf10ef09e794c08ca6845a18e1e44c1b9417e",
+          "sha256": "dd6b6e929a52cc715dc8e142e4df3c17c88f99c2597f60da0216ea578ef4cfc4",
+          "sha1": "8f2871e95007363f734a6cece4f8a1c97c019361",
+          "md5": "60399a724f00ada25bc64cb8ab8d0efd"
+        }
+      ]
+    }
+  ]
+}
