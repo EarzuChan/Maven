@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earzuchan.hiro",
+    "module": "material3",
+    "version": "1.2.0-alpha-cmp1.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "compose",
+          "version": {
+            "requires": "1.2.0-alpha-cmp1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-1.2.0-alpha-cmp1.11.1.aar",
+          "url": "material3-1.2.0-alpha-cmp1.11.1.aar",
+          "size": 4474265,
+          "sha512": "aae834bc191dcbc976287612509709fd85ec8cc963361cca979a3f399591819e2a6cf1c73f07a29d276c5a462fad63acbde7b5abd5f5f28a08eac98623af78aa",
+          "sha256": "e052b77c58903087a2214bd00e24c78cdd02ba7c7a699f05f9d47afe745f689c",
+          "sha1": "c64a977a7502c3b2d29fee4b9319f186ea55f577",
+          "md5": "dec065ce02fb01a57ce3dd0266349754"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "compose",
+          "version": {
+            "requires": "1.2.0-alpha-cmp1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-1.2.0-alpha-cmp1.11.1.aar",
+          "url": "material3-1.2.0-alpha-cmp1.11.1.aar",
+          "size": 4474265,
+          "sha512": "aae834bc191dcbc976287612509709fd85ec8cc963361cca979a3f399591819e2a6cf1c73f07a29d276c5a462fad63acbde7b5abd5f5f28a08eac98623af78aa",
+          "sha256": "e052b77c58903087a2214bd00e24c78cdd02ba7c7a699f05f9d47afe745f689c",
+          "sha1": "c64a977a7502c3b2d29fee4b9319f186ea55f577",
+          "md5": "dec065ce02fb01a57ce3dd0266349754"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material3-1.2.0-alpha-cmp1.11.1-sources.jar",
+          "url": "material3-1.2.0-alpha-cmp1.11.1-sources.jar",
+          "size": 9329,
+          "sha512": "07b0c6a2eb1139a908bdaf8112af12483b0b2982b93f0959a3a7299d19cbcc904888f12c8ea143941d0a8d60ded102aac362d7ef9153a55a5505901cdddf737b",
+          "sha256": "4f3c12b9349cba7135bdbe332ab741c496ffc091a3c52f701a50778f25eccf3a",
+          "sha1": "f4c3fc9a990683d65fd0d1e18ddcf9bff66176c5",
+          "md5": "3323c25111234f0cc1671c3747c243f9"
+        }
+      ]
+    }
+  ]
+}
