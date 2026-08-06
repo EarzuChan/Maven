@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earzuchan.hiro",
+    "module": "skia",
+    "version": "1.7.0-alpha-cmp1.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko-android",
+          "version": {
+            "requires": "0.144.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skia-1.7.0-alpha-cmp1.11.1.aar",
+          "url": "skia-1.7.0-alpha-cmp1.11.1.aar",
+          "size": 6078402,
+          "sha512": "618b0f1f5ab5c97aa930c140e81b06c2e273e48d3d6c36ad7f3bd620494f91d4cfd51a57c7d773b36ade7cea06a3b423e5da4855be924928d87a14d38685fe29",
+          "sha256": "25a58c0494335c51c80118c2f311e9f972d2b24c95a5f0770b011b4d2f78fda0",
+          "sha1": "57fe4887e1ffaaf1105d9d44351505faf2bc9a55",
+          "md5": "9df3341873ed74b0ad2d776b29258072"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko-android",
+          "version": {
+            "requires": "0.144.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skia-1.7.0-alpha-cmp1.11.1.aar",
+          "url": "skia-1.7.0-alpha-cmp1.11.1.aar",
+          "size": 6078402,
+          "sha512": "618b0f1f5ab5c97aa930c140e81b06c2e273e48d3d6c36ad7f3bd620494f91d4cfd51a57c7d773b36ade7cea06a3b423e5da4855be924928d87a14d38685fe29",
+          "sha256": "25a58c0494335c51c80118c2f311e9f972d2b24c95a5f0770b011b4d2f78fda0",
+          "sha1": "57fe4887e1ffaaf1105d9d44351505faf2bc9a55",
+          "md5": "9df3341873ed74b0ad2d776b29258072"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "skia-1.7.0-alpha-cmp1.11.1-sources.jar",
+          "url": "skia-1.7.0-alpha-cmp1.11.1-sources.jar",
+          "size": 14504,
+          "sha512": "8caeaeafbf0701c64e0a9750ee9910cc4227cf7cb89ce4cb236d4bd24b90326d7c36f7d54be1b5bc1b1017b4d70d3eef606d1356be2c15383e3d7df77b51cfbf",
+          "sha256": "56ac1cd5d777d206e3eb02bac00df3ccb4dd924862138b827bbb5c075e3bfd4e",
+          "sha1": "2c46fc3506666746305bc2f417227919b2150509",
+          "md5": "8ea7ba596988a34f118539481cb3afb6"
+        }
+      ]
+    }
+  ]
+}

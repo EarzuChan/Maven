@@ -1,0 +1,679 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earzuchan.hiro",
+    "module": "compose",
+    "version": "1.7.0-alpha-cmp1.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "skia",
+          "version": {
+            "requires": "1.7.0-alpha-cmp1.11.1"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "excludes": [
+            {
+              "group": "androidx.annotation",
+              "module": "*"
+            },
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.collection",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "excludes": [
+            {
+              "group": "androidx.annotation",
+              "module": "*"
+            },
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.collection",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection-jvm",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-1.7.0-alpha-cmp1.11.1.aar",
+          "url": "compose-1.7.0-alpha-cmp1.11.1.aar",
+          "size": 11915716,
+          "sha512": "fffbb5ac06c6c76ff685dfe46c4dfab54e5e0209cbca6fa0f4da2714d4e5c4de4e623673f69cdc99a6637cc15f66a9bdbe7255ee1ccbfb2ba14e6a750d9162f2",
+          "sha256": "9797a229dc1c087c28a7c138af4ff0a3a3d6b0b6e8485de8505dbfc954483911",
+          "sha1": "d01838835723583cf38140dbe11eb83e34a17bbb",
+          "md5": "71918d8124a1c33059cd1f8e0b4d2237"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-jvm",
+          "version": {
+            "requires": "0.28.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.12.4"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "skia",
+          "version": {
+            "requires": "1.7.0-alpha-cmp1.11.1"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "excludes": [
+            {
+              "group": "androidx.annotation",
+              "module": "*"
+            },
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.collection",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "excludes": [
+            {
+              "group": "androidx.annotation",
+              "module": "*"
+            },
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.collection",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection-jvm",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains.compose.runtime",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-navigation3"
+            },
+            {
+              "group": "androidx.savedstate",
+              "module": "savedstate-compose"
+            },
+            {
+              "group": "androidx.compose.ui",
+              "module": "*"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-viewmodel-compose"
+            },
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-runtime-compose"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-1.7.0-alpha-cmp1.11.1.aar",
+          "url": "compose-1.7.0-alpha-cmp1.11.1.aar",
+          "size": 11915716,
+          "sha512": "fffbb5ac06c6c76ff685dfe46c4dfab54e5e0209cbca6fa0f4da2714d4e5c4de4e623673f69cdc99a6637cc15f66a9bdbe7255ee1ccbfb2ba14e6a750d9162f2",
+          "sha256": "9797a229dc1c087c28a7c138af4ff0a3a3d6b0b6e8485de8505dbfc954483911",
+          "sha1": "d01838835723583cf38140dbe11eb83e34a17bbb",
+          "md5": "71918d8124a1c33059cd1f8e0b4d2237"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compose-1.7.0-alpha-cmp1.11.1-sources.jar",
+          "url": "compose-1.7.0-alpha-cmp1.11.1-sources.jar",
+          "size": 88034,
+          "sha512": "c250fea7324a5c06a0ae3e4b69ae3843d21483ec53a433d8570190960d87ab2e6f78d599a6ed9c30a7545c7b9eca0e1e9ba6cf1ba8ad89c294f5b4a8361acc04",
+          "sha256": "be7f1cb4fc49c81c4dd2bdf2f72ad8095bd54e19b336c152b6ec4375957b9e51",
+          "sha1": "554b6d015d9d60765f352a6c36f4f38303b8b9dd",
+          "md5": "9443e5d5dcf672cba178a199ae8b391b"
+        }
+      ]
+    }
+  ]
+}
