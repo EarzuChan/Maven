@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.earzuchan.hiro</groupId>
+  <artifactId>me.earzuchan.hiro.gradle.plugin</artifactId>
+  <version>1.7.0-alpha-cmp1.11.1</version>
+  <packaging>pom</packaging>
+  <name>Hiro Compose Skia Android</name>
+  <description>配置 Hiro Compose Skia Android 的依赖剥离和兼容性检查</description>
+  <dependencies>
+    <dependency>
+      <groupId>me.earzuchan.hiro.gradleplugin</groupId>
+      <artifactId>hiro-gradle-plugin</artifactId>
+      <version>1.7.0-alpha-cmp1.11.1</version>
+    </dependency>
+  </dependencies>
+</project>
