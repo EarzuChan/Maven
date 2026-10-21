@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earzuchan.hiro.gradleplugin",
+    "module": "hiro-gradle-plugin",
+    "version": "1.9.0-alpha-cmp1.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hiro-gradle-plugin-1.9.0-alpha-cmp1.12.2.jar",
+          "url": "hiro-gradle-plugin-1.9.0-alpha-cmp1.12.2.jar",
+          "size": 116352,
+          "sha512": "9bddf1e72234315b7c4423bd58fbc268a27565e8d402e2b85631bc5bf3ecaab97246d89195a553fc80ee3516f7f5c7e13d505e916c372216d52fee43c0332302",
+          "sha256": "1f817c37f9a9c6cf4273071a320a79298bf999dc635fefc86aeaf7a4036926f1",
+          "sha1": "7d519e79b5ba65248c24564ea3f8a15959a2ab45",
+          "md5": "378f94182bcf9a669ad1686fca9db2a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hiro-gradle-plugin-1.9.0-alpha-cmp1.12.2.jar",
+          "url": "hiro-gradle-plugin-1.9.0-alpha-cmp1.12.2.jar",
+          "size": 116352,
+          "sha512": "9bddf1e72234315b7c4423bd58fbc268a27565e8d402e2b85631bc5bf3ecaab97246d89195a553fc80ee3516f7f5c7e13d505e916c372216d52fee43c0332302",
+          "sha256": "1f817c37f9a9c6cf4273071a320a79298bf999dc635fefc86aeaf7a4036926f1",
+          "sha1": "7d519e79b5ba65248c24564ea3f8a15959a2ab45",
+          "md5": "378f94182bcf9a669ad1686fca9db2a9"
+        }
+      ]
+    }
+  ]
+}

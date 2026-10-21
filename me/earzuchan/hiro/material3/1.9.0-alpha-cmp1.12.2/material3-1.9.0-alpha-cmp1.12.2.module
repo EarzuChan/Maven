@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earzuchan.hiro",
+    "module": "material3",
+    "version": "1.9.0-alpha-cmp1.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "compose",
+          "version": {
+            "requires": "1.9.0-alpha-cmp1.12.2"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-1.9.0-alpha-cmp1.12.2.aar",
+          "url": "material3-1.9.0-alpha-cmp1.12.2.aar",
+          "size": 4658513,
+          "sha512": "0f86c2876320ba4bb515f3e3d19a8a9656329677551320510d86db8d0469a2bdda7b558221ecd3f61dc7901e517e294d815d11b206955832cc36b161b6fa2b43",
+          "sha256": "cca213912f90cb867ef72a4ff9bf5999e37d60e7bd20781a17b4493395ddd984",
+          "sha1": "722e324b15ba2d57d045e223324d09e87b7ca4d4",
+          "md5": "d714984328bab7e1648631f72ce387e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earzuchan.hiro",
+          "module": "compose",
+          "version": {
+            "requires": "1.9.0-alpha-cmp1.12.2"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-1.9.0-alpha-cmp1.12.2.aar",
+          "url": "material3-1.9.0-alpha-cmp1.12.2.aar",
+          "size": 4658513,
+          "sha512": "0f86c2876320ba4bb515f3e3d19a8a9656329677551320510d86db8d0469a2bdda7b558221ecd3f61dc7901e517e294d815d11b206955832cc36b161b6fa2b43",
+          "sha256": "cca213912f90cb867ef72a4ff9bf5999e37d60e7bd20781a17b4493395ddd984",
+          "sha1": "722e324b15ba2d57d045e223324d09e87b7ca4d4",
+          "md5": "d714984328bab7e1648631f72ce387e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material3-1.9.0-alpha-cmp1.12.2-sources.jar",
+          "url": "material3-1.9.0-alpha-cmp1.12.2-sources.jar",
+          "size": 7880,
+          "sha512": "095bc9f2118467fb89fe69d2d56b1160352aca7fb0dc4e4f30c2c11532348cc0d545ba1728e47a71ad90a477c322beba502e30424d7ee897fd536b050fd9c6c0",
+          "sha256": "0e231865837d1ffd85528c39285bdedf90c843b3d32ddf4259aa67bcca4f510e",
+          "sha1": "e2adf2ef0cae4615955b702f4104eb2a39a09fda",
+          "md5": "875530ead649e6a8860a43a439b95a32"
+        }
+      ]
+    }
+  ]
+}

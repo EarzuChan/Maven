@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.earzuchan.hiro</groupId>
+  <artifactId>me.earzuchan.hiro.gradle.plugin</artifactId>
+  <version>1.9.0-alpha-cmp1.12.2</version>
+  <packaging>pom</packaging>
+  <name>Hiro Gradle Plugin</name>
+  <description>为使用 Hiro 的安卓工程剥离官方 Compose 依赖、选用 Skiko 变体，并代为生成 Compose 资源</description>
+  <url>https://github.com/EarzuChan/Hiro</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/license/MIT</url>
+    </license>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <comments>随附经处理的 Compose Multiplatform、AndroidX 与 Skiko，其余第三方作品见仓库中的 THIRD_PARTY_NOTICES.md</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>EarzuChan</id>
+      <name>EarzuChan</name>
+      <email>kontakt@earzuchan.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/EarzuChan/Hiro.git</connection>
+    <url>https://github.com/EarzuChan/Hiro</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.earzuchan.hiro.gradleplugin</groupId>
+      <artifactId>hiro-gradle-plugin</artifactId>
+      <version>1.9.0-alpha-cmp1.12.2</version>
+    </dependency>
+  </dependencies>
+</project>

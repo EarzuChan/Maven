@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.earzuchan.hiro</groupId>
+  <artifactId>material3</artifactId>
+  <version>1.9.0-alpha-cmp1.12.2</version>
+  <packaging>aar</packaging>
+  <name>Hiro Material 3</name>
+  <description>Hiro Compose 的 Material 3，含复刻 AOSP 的水波纹</description>
+  <url>https://github.com/EarzuChan/Hiro</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/license/MIT</url>
+    </license>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <comments>随附经处理的 Compose Multiplatform、AndroidX 与 Skiko，其余第三方作品见仓库中的 THIRD_PARTY_NOTICES.md</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>EarzuChan</id>
+      <name>EarzuChan</name>
+      <email>kontakt@earzuchan.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/EarzuChan/Hiro.git</connection>
+    <url>https://github.com/EarzuChan/Hiro</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.earzuchan.hiro</groupId>
+      <artifactId>compose</artifactId>
+      <version>1.9.0-alpha-cmp1.12.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.graphics</groupId>
+      <artifactId>graphics-shapes</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-datetime</artifactId>
+      <version>0.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.3.21</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
